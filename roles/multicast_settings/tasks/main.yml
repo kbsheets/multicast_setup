@@ -1,0 +1,12 @@
+---
+# Apply multicast network stack settings
+
+- name: Configure multicast settings
+  sysctl:
+    name: "{{ item.value.name }}"
+    value: "{{ item.value.value }}"
+    sysctl_set: yes
+    state: present
+    reload: yes
+  become: true
+  with_dict: "{{ sysctl_multicast_settings }}"

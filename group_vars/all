@@ -1,0 +1,13 @@
+---
+sysctl_multicast_settings:
+      ignore_broadcasts:
+        name: "net.ipv4.icmp_echo_ignore_broadcasts"
+        value: "0"
+      ip_forward:
+        name: "net.ipv4.ip_forward"
+        value: "1"
+
+multicast_route_settings:
+       netmask: 240.0.0.0
+       prefix: 224.0.0.0
+       interface: eth1

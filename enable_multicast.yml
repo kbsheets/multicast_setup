@@ -1,0 +1,10 @@
+---
+# Setup host to allow multicast communication
+
+- name: apply multicast configuration
+  hosts: all
+  become: true
+
+  roles:
+    - multicast_settings
+    - multicast_route
