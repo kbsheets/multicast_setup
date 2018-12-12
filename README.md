@@ -38,8 +38,7 @@ This project is licensed under the Apache License, Version 2.0 - see the [apache
 
 ## Acknowledgments
 
-* This code is an automation of techniques and approaches from various 
-  net sourcs
+This code is an automation of techniques and approaches from various net sources
 
   Including:
     * https://jupfaf.net/index.php?article10/multicast-between-virtual-machines-in-virtualbox
