@@ -40,7 +40,7 @@ This project is licensed under the Apache License, Version 2.0 - see the [apache
 
 This code is an automation of techniques and approaches from various net sources
 
-  Including:
+  * Including:
     * https://jupfaf.net/index.php?article10/multicast-between-virtual-machines-in-virtualbox
     * http://troglobit.com/howto/multicast/
     * https://www.ibm.com/support/knowledgecenter/en/SSQPD3_2.6.0/com.ibm.wllm.doc/runningiperfmulti.html
