@@ -8,3 +8,10 @@
     create: yes
     regexp: '^224'
     line: "224.0.0.0/4 via {{ hostvars[inventory_hostname][ 'ansible_' + multicast_route_settings.interface ].ipv4.address }} dev {{ multicast_route_settings.interface }}"
+
+- name: Restart network
+  service:
+    name: network
+    state: restarted
+    args: "{{ multicast_route_settings.interface }}"
+
