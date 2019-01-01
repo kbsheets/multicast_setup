@@ -15,9 +15,11 @@ for other platforms as necessary.
 
 ### Installing
 
+```console
 $ git clone https://github.com/kbsheets/multicast_setup.git
 $ vi inventories/hosts # Add hosts to inventory list
 $ vi group_vars/all
+```
 
 Edit the 'interface' attribute of the 'mutlicast_route_settings' to match the 
 NIC that will be used to manage multicast traffic in your network.
